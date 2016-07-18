@@ -1,9 +1,9 @@
 class List {
 
   constructor (title, description) {
-    this.title = title;
+    this.title       = title;
     this.description = description;
-    this.tasks = [];
+    this.tasks       = [];
   }
 
 }
