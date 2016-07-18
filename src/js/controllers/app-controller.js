@@ -1,7 +1,9 @@
 class AppController {
 
-  constructor () {
-    
+  constructor (form, container, list) {
+    this.form      = form;
+    this.container = container;
+    this.list      = list;
   }
 
 }
